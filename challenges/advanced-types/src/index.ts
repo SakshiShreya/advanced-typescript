@@ -7,7 +7,7 @@
  *
  * type Example = Mix<
  *    { a: number; b: string },
- *    { a: string; c: number[] }
+ *    { a: string; c: number }
  * >;
  * // results in
  * {
@@ -17,7 +17,7 @@
  * }
  */
 
-type ProblemMerge = { a: number; b: string } & { a: string; c: number[] };
+type ProblemMerge = { a: number; b: string } & { a: string; c: number };
 
 console.log(
   Object.assign({ a: 44, b: "hello" }, { a: "from second object", c: 99 })
