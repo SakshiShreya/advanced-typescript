@@ -41,7 +41,7 @@
  */
 
 // class Contact {
-//   name: string;
+//   name: string = "abc";
 // }
 
 // // passes both the value and type tests

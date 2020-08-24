@@ -1,4 +1,4 @@
-import { HasEmail, HasPhoneNumber } from "./1-basics";
+// import { HasEmail, HasPhoneNumber } from "./1-basics";
 
 /**
  * (1) MAPPED TYPES allow the use of an interface to transform keys into values

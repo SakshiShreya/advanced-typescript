@@ -1,4 +1,4 @@
-import { HasPhoneNumber, HasEmail } from "./1-basics";
+// import { HasPhoneNumber, HasEmail } from "./1-basics";
 
 // == CLASSES == //
 
@@ -67,7 +67,7 @@ import { HasPhoneNumber, HasEmail } from "./1-basics";
  */
 // class ConcreteContact extends AbstractContact {
 //   constructor(
-//     public phone: number, // must happen before non property-parameter arguments
+//     public phone: number,
 //     name: string,
 //     email: string
 //   ) {

@@ -1,4 +1,4 @@
-import { HasPhoneNumber, HasEmail } from "./1-basics";
+// import { HasPhoneNumber, HasEmail } from "./1-basics";
 
 //== TYPE ALIAS ==//
 /**
@@ -6,11 +6,11 @@ import { HasPhoneNumber, HasEmail } from "./1-basics";
  */
 // type StringOrNumber = string | number;
 
-// // this is the ONLY time you'll see a type on the RHS of assignment
+// works same as an interface
 // type HasName = { name: string };
 
 // NEW in TS 3.7: Self-referencing types!
-type NumVal = 1 | 2 | 3 | NumVal[];
+// type NumVal = 1 | 2 | 3 | NumVal[];
 
 // == INTERFACE == //
 /**
@@ -46,6 +46,9 @@ type NumVal = 1 | 2 | 3 | NumVal[];
 // interface ContactConstructor {
 //   new (...args: any[]): HasEmail | HasPhoneNumber;
 // }
+
+// Example of a use case
+// https://fettblog.eu/typescript-interface-constructor-pattern/#:~:text=The%20map's%20generics%20are%20set,instantiate%20them%20afterwards%2C%20after%20all.
 
 /**
  * (5) index signatures describe how a type will respond to property access

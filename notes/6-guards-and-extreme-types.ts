@@ -1,4 +1,4 @@
-import { HasEmail } from "./1-basics";
+// import { HasEmail } from "./1-basics";
 
 //== TOP TYPES ==//
 
@@ -61,7 +61,7 @@ import { HasEmail } from "./1-basics";
 //   console.log(myUnknown.name, myUnknown.email);
 // }
 
-// // my most common guard
+// // check if any value is defined
 // function isDefined<T>(arg: T | undefined): arg is T {
 //   return typeof arg !== "undefined";
 // }
